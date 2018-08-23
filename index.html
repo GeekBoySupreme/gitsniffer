@@ -43,10 +43,6 @@
     
       <!-- Modal content-->
       <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" id="cross">&times;</button>
-          <h5 class="modal-title">Gitsniffer</h5>
-        </div>
         <div class="modal-body">
            <div id="ghapidata" style="min-height:250px;" class="clearfix"></div>
         </div>
@@ -92,7 +88,7 @@ $(function(){
         if(fullname == undefined) { fullname = username; }
         
         var outhtml = '<div class="ghcontent"><div class="avi"><a href="'+profileurl+'" target="_blank"><img src="'+aviurl+'" width="80" height="80" alt="'+username+'"></a></div>';
-        outhtml = outhtml + '<div id="fullname">'+fullname+'- <span class="smallname">@<a href="'+profileurl+'" target="_blank" id="profileurl">'+username+'</a></span></div></div>';
+        outhtml = outhtml + '<div id="fullname">'+fullname+' &nbsp; <span class="smallname"><a href="'+profileurl+'" target="_blank" id="profileurl"><span class="dot"></span>&nbsp;@'+username+' &nbsp;</a></span></div></div>';
         outhtml = outhtml + '<div id="followdetails"><span class="card"><span class="number">'+followersnum+'</span><span id="text"> follower</span></span><span class="card"><span class="number">'+followingnum+'</span><span id="text"> following</span></span><span class="card"><span class="number">'+reposnum+'</span><span id="text"> repos</p></span></div>';
         
         outhtml = outhtml + '<div class="repolist clearfix">';
