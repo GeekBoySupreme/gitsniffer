@@ -171,23 +171,22 @@ header{
   display: block;
 }
 .repolist ul li a {
-  padding: 10px;
-  padding-top:5px;
-  padding-bottom:5px;
+  padding: 5px 15px;
   display: block;
   float: left;
+  font-weight: 600;
   margin-right: 12px;
   margin-bottom: 8px;
   text-decoration: none;
   border-radius: 50px;
-  color: rgb(0,0,0,0);
-  background-color: rgb(0,98,187);
+  background-color: rgba(255, 185, 93, 0.116);
   transition: 0.3s ease;
   box-shadow: 0 3px 3px rgba(0,0,0,0.20);
-  color:#ffffff; 
+  color:#ffd381; 
 }
 .repolist ul li a:hover {
-  background-color: rgb(0,128,255);
+  background-color: rgb(255, 190, 92);
+  color: white;
   box-shadow: 0 5px 5px rgba(0,0,0,0.25);
 }
 .repolist ul li a:active {
@@ -342,12 +341,15 @@ html[xmlns] .clearfix { display: block; }
 {
   background:transparent;
   transition:0.4s ease;
-  font-weight: 600;
+  font-weight: 700;
+  padding: 5px 15px;
   border-radius: 50px;
+  color: coral;
 }
 #close_button:hover
 {
-  color:rgb(0,116,221);
+  color:rgb(250, 249, 248);
+  background-color: rgb(255, 110, 58);
 }
 #close_button:focus {
   outline: none;
@@ -377,7 +379,7 @@ html[xmlns] .clearfix { display: block; }
 #profileurl
 {
   text-decoration: none;
-  color:rgb(30,30,30);
+  color:rgb(255, 203, 136);
   font-weight:bold;
   padding:5px;
   margin:3px;
@@ -407,4 +409,13 @@ html[xmlns] .clearfix { display: block; }
 {
   font-family: 'Nunito', sans-serif;
   font-weight:bold;
+}
+
+.modal-content {
+  background-color: #272727!important;
+  color: white;
+}
+
+.modal-footer {
+  border:none!important;
 }
