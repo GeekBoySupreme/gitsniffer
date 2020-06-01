@@ -32,7 +32,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ol, ul { list-style: none; }
 
 input, textarea { 
-  font-weight: bold;
+  font-weight: 700;
   font-family: 'Nunito', sans-serif;
   outline: none; 
 }
@@ -134,7 +134,7 @@ header{
 {
   
   margin-bottom:20px;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 
@@ -205,9 +205,11 @@ header{
 }
 /* input field */
 #ghusername {
+  font-family: 'Nunito', sans-serif;
   font-size: 1.4em;
   padding:15px 15px;
-  width: 80%;
+  font-weight: 600;
+  width: 65%;
   max-width:600px;
   margin-left:auto;
   margin-top:20px;
