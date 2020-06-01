@@ -1,33 +1,19 @@
 <template>
   <div id="app">
-    <Header/>
-    <TopBanner/>
-    <InfoPanel/>
+    
     <Footer/>
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue'
-import TopBanner from './components/TopBanner.vue'
 import Footer from './components/Footer.vue'
-import InfoPanel from './components/InfoPanel.vue'
 
 export default {
-  mounted() {
-    const plugin = document.createElement("script");
-    plugin.setAttribute(
-      "src",
-      "https://geekboysupreme.github.io/Artemis/scripts.js"
-    );
-    plugin.async = true;
-    document.head.appendChild(plugin);
-  },
+  mounted() {},
   name: 'App',
   components: {
-    Header,
-    TopBanner,
-    InfoPanel,
+    GitSniffer,
     Footer
   }
 }
