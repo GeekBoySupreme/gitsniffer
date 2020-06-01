@@ -57,12 +57,14 @@
   
   
    
-  </div>
+</div>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 <script type="text/javascript">
 $(function(){
   $('#ghsubmitbtn').on('click', function(e){
     e.preventDefault();
-    $('#ghapidata').html('<div id="loader"><img src="css/loader.gif" alt="loading..."></div>');
+    $('#ghapidata').html('<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kJNwM4.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>');
     
     var username = $('#ghusername').val();
     var requri   = 'https://api.github.com/users/'+username;
