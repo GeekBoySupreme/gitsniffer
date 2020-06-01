@@ -6,7 +6,8 @@
 						<br>
 						<h4 class="white-text">Copyleft - All Wrongs Reserved</h4>
                         <br>
-                        <h4 class="white-text">Fork the code on <a class="rocket-link" href="https://github.com/GeekBoySupreme/Artemis.git" target="blank">Github &nbsp;&nbsp;&nbsp; <i class="fab fa-github"></i></a></h4>
+                        <h4 class="white-text">Fork the code on <a class="rocket-link" href="https://github.com/GeekBoySupreme/gitsniffer.git" target="blank">Github &nbsp;&nbsp;&nbsp; <i class="fab fa-github"></i></a></h4>
+						<br>
                         <h4 class="white-text move-up">Made with <i id="heart-color" class="fas fa-heart"></i> and <i id="vue-color" class="fab fa-vuejs"></i></h4>
                     </div>
 					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

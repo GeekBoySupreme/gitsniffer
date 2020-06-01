@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    
+    <GitSniffer/>
     <Footer/>
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import GitSniffer from './components/GitSniffer.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -21,6 +21,6 @@ export default {
 
 <style>
   @import './assets/styles.css';
-  @import 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.0/css/bootstrap-grid.css';
+  @import './assets/styles_2.css';
 </style>
 
