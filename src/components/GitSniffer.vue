@@ -1,7 +1,7 @@
 <template>
     <div id="searchframe">
 
-		<div id="imgholder"><img id="theImg" src="css/mascot.png"/></div>
+		<div id="imgholder"><img id="theImg" src="../assets/mascot.png"/></div>
 		<p class="tag"><b id="front">Git</b><b id="rear">Sniffer</b></p>
 			
 			<input type="text" name="ghusername" id="ghusername" class="ghusername" placeholder="Github username...">
