@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   vertical-align: baseline;
   outline: none;
   -webkit-font-smoothing: antialiased;
@@ -15,7 +18,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 html { overflow-y: scroll; }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   text-align: center;
   font-size: 62.5%;
   line-height: 1;
@@ -29,8 +32,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ol, ul { list-style: none; }
 
 input, textarea { 
-  font-weight: :bold;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
   outline: none; 
 }
 
@@ -177,7 +180,7 @@ header{
   margin-bottom: 8px;
   text-decoration: none;
   border-radius: 50px;
-  color: #rgb(0,0,0,0);
+  color: rgb(0,0,0,0);
   background-color: rgb(0,98,187);
   transition: 0.3s ease;
   box-shadow: 0 3px 3px rgba(0,0,0,0.20);
@@ -194,7 +197,7 @@ header{
 }
 
 .repolist ul li a span {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size: 0.9em;
 }
 
@@ -203,11 +206,8 @@ header{
 }
 /* input field */
 #ghusername {
-
-  padding: 5px 8px;
   font-size: 1.4em;
-  padding:10px;
-  padding-left:15px;
+  padding:15px 15px;
   width: 80%;
   max-width:600px;
   margin-left:auto;
@@ -226,11 +226,9 @@ header{
 
 #ghsubmitbtn {
   display: inline-block;
-  padding:10px;
-  padding-left:13px;
-  padding-right:13px;
+  padding:15px 18px;
   color:#fff;
-  background-color: rgb(0,116,221);
+  background-color: coral;
   text-align:center;
   border-radius: 50px;
   font-weight: bold;
@@ -240,7 +238,7 @@ header{
   box-shadow: 0 5px 5px rgba(0,0,0,0.20);
 }
 #ghsubmitbtn:hover {
-  background-color: rgb(20,147,255);
+  background-color: rgb(252, 145, 106);
   box-shadow: 0 9px 9px rgba(0,0,0,0.20);
 }
 #ghsubmitbtn:active {
@@ -311,7 +309,7 @@ html[xmlns] .clearfix { display: block; }
 
 .darkmode_toggle
 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   padding:15px;
   margin:5px;
   font-size:1.3em;
@@ -322,6 +320,7 @@ html[xmlns] .clearfix { display: block; }
 
 .tag{
   text-decoration: none;
+  font-weight: 700;
 }
 .darkmode_toggle button
 {
@@ -329,9 +328,7 @@ html[xmlns] .clearfix { display: block; }
   outline:none;
   border: 1px solid transparent;
   border-radius: 50px;
-  padding:6px;
-  padding-left:8.5px;
-  padding-right:8.5px;
+  padding:10px 13px;
   margin:7px;
   background: rgba(255,255,255,0.2);
   box-shadow: 0 5px 5px rgba(0,0,0,0.20);
@@ -382,7 +379,7 @@ html[xmlns] .clearfix { display: block; }
   padding-top:1px;
   padding-bottom:1px;
   padding-right:3px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size:1.0em;
   border:1px solid rgb(120,120,120);
   border-radius: 50px;
@@ -403,6 +400,6 @@ html[xmlns] .clearfix { display: block; }
 
 #fullanme
 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:bold;
 }

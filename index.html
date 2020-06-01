@@ -73,7 +73,7 @@ $(function(){
     requestJSON(requri, function(json) {
       if(json.message == "Not Found" || username == '') {
         $('#ghapidata').html("<h4>Error 404 : No Users Found</h4>");
-        $('#ghapidata').prepend('<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_QIvVpl.json"  background="transparent"  speed="1"  style="width: 50%; height: 50%;"  loop  autoplay></lottie-player>')
+        $('#ghapidata').prepend('<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_QIvVpl.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px; margin: 50px auto;"  loop  autoplay></lottie-player>')
       }
       
       else {
@@ -91,7 +91,7 @@ $(function(){
         
         var outhtml = '<div class="ghcontent"><div class="avi"><a href="'+profileurl+'" target="_blank"><img src="'+aviurl+'" width="80" height="80" alt="'+username+'"></a></div>';
         outhtml = outhtml + '<div id="fullname">'+fullname+' &nbsp; <span class="smallname"><a href="'+profileurl+'" target="_blank" id="profileurl"><span class="dot"></span>&nbsp;@'+username+' &nbsp;</a></span></div></div>';
-        outhtml = outhtml + '<div id="followdetails"><span class="card"><span class="number">'+followersnum+'</span><span id="text"> follower</span></span><span class="card"><span class="number">'+followingnum+'</span><span id="text"> following</span></span><span class="card"><span class="number">'+reposnum+'</span><span id="text"> repos</p></span></div>';
+        outhtml = outhtml + '<div id="followdetails"><span class="card"><span class="number">'+followersnum+'</span><span id="text"> <b>follower</b></span></span><span class="card"><span class="number">'+followingnum+'</span><span id="text"> <b>following</b></span></span><span class="card"><span class="number">'+reposnum+'</span><span id="text"> <b>repos</b></p></span></div>';
         
         outhtml = outhtml + '<div class="repolist clearfix">';
         
