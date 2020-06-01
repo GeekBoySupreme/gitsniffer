@@ -64,7 +64,7 @@
 $(function(){
   $('#ghsubmitbtn').on('click', function(e){
     e.preventDefault();
-    $('#ghapidata').html('<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kJNwM4.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>');
+    $('#ghapidata').html('<lottie-player src="https://assets10.lottiefiles.com/packages/lf20_kJNwM4.json"  background="transparent"  speed="1"  style="width: 200px; height: 200px; margin: 50px auto"  loop  autoplay></lottie-player>');
     
     var username = $('#ghusername').val();
     var requri   = 'https://api.github.com/users/'+username;
@@ -73,7 +73,7 @@ $(function(){
     requestJSON(requri, function(json) {
       if(json.message == "Not Found" || username == '') {
         $('#ghapidata').html("<h4>Error 404 : No Users Found</h4>");
-        $('#ghapidata').prepend('<img id="theImg" src="css/imextinct.png" width="50%" height="50%"/>')
+        $('#ghapidata').prepend('<lottie-player src="https://assets1.lottiefiles.com/packages/lf20_QIvVpl.json"  background="transparent"  speed="1"  style="width: 50%; height: 50%;"  loop  autoplay></lottie-player>')
       }
       
       else {
