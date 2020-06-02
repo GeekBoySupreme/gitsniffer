@@ -422,7 +422,7 @@ html[xmlns] .clearfix { display: block; }
 .modal-footer {
   border:none!important;
 }
-/*------------  Footer
+/*------------  Footer ----------------------*/
 #footer {
   bottom: 0;
   width: 100%;
@@ -430,6 +430,7 @@ html[xmlns] .clearfix { display: block; }
   padding: 10px;
   min-height: 50px;
   background-color: rgb(20, 20, 20);
+  text-align: left;
 }
 
 .white-text {
@@ -533,4 +534,3 @@ html[xmlns] .clearfix { display: block; }
 .footer-inner a:hover {
   text-decoration: underline;
 }
- -------------*/
