@@ -19,19 +19,18 @@
   
 </head>
 
-<body>
+<body class="darkmode">
   
   <div class="main_content">
     <div id="imgholder"><img id="theImg" src="css/mascot.png"/></div>
       
     <div class="search_box">
       <p class="tag"><b id="front">Git</b><b id="rear">Sniffer</b></p>
-      <input type="text" name="ghusername" id="ghusername" class="ghusername" placeholder="Github username...">
+      <input type="text" name="ghusername" id="ghusername" class="ghusername darkmode_lite" placeholder="Github username...">
       <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ghsubmitbtn"><i class="fas fa-search"></i></button>
     
       <p>&nbsp;</p>
-      <div class="darkmode_toggle"><b class="tag">Switch mode :</b> <button id="dark"><i class="fas fa-adjust"></i></button></div>  
-    
+      <div class="darkmode_toggle"><b class="tag lighttext">Switch mode :</b> <button id="dark"><i class="fas fa-adjust"></i></button></div>  
     </div>
       
   </div>
@@ -59,8 +58,9 @@
    <div class="container">
      <div class="row">
        <div class="col-lg-12 col md-12 col-sm-12">
-         Designed with Love
-       </div>
+         Made with <i class="fas fa-heart heart-red"></i>, <i class="fab fa-js-square js-yellow"></i> and the <i class="fab fa-jedi-order jedi-pink"></i> | Fork on <a target="blank" href="https://github.com/GeekBoySupreme/gitsniffer" class="link-blue">Github <i class="fab fa-github"></i></a>
+        <br/>
+        </div>
      </div>
    </div>
  </footer>
@@ -134,7 +134,7 @@ $(function(){
 });
 
 //Dark mode script
-var darkEnabled = false; 
+var darkEnabled = true; 
 var place=document.getElementById("ghusername");
 var tag=document.getElementsByClassName("tag");
 $(document).ready(function() {

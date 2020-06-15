@@ -102,7 +102,7 @@ a:hover {
   min-width:100px;
   min-height:100px;
   position: relative;
-  top: 10vh;
+  top: 5vh;
 }
 header{
   width:100%;
@@ -262,7 +262,8 @@ html[xmlns] .clearfix { display: block; }
 {
   border:1px solid rgb(50,50,50);
   background:rgb(50,50,50);
-  color:rgb(0,128,255);
+  color:rgb(55, 155, 255);
+  font-weight: 700;
 }
 .lighttext
 {
@@ -426,16 +427,37 @@ html[xmlns] .clearfix { display: block; }
 #footer {
   position: absolute;
   bottom: 0px;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
   height: 70px;
   width: 100%;
   background-color: rgb(36, 36, 36);
   color: rgb(200,200,200);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
 }
 
 .search_box {
   position: relative;
-  top : 15vh;
+  top : 10vh;
+}
+
+#footer i {
+  margin: 4px;
+}
+
+.heart-red {
+  color: rgb(255, 82, 38);
+}
+
+.js-yellow {
+  color: rgb(255, 220, 66);
+}
+
+.jedi-pink {
+  color: rgb(255, 102, 128);
+}
+
+.link-blue {
+  color: rgb(94, 137, 255);
+  font-weight: 700;
 }
