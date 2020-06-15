@@ -21,19 +21,21 @@
 
 <body>
   
-  <div id="imgholder"><img id="theImg" src="css/mascot.png"/></div>
-  <p class="tag"><b id="front">Git</b><b id="rear">Sniffer</b></p>
+  <div class="main_content">
+    <div id="imgholder"><img id="theImg" src="css/mascot.png"/></div>
+      
+    <div class="search_box">
+      <p class="tag"><b id="front">Git</b><b id="rear">Sniffer</b></p>
+      <input type="text" name="ghusername" id="ghusername" class="ghusername" placeholder="Github username...">
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ghsubmitbtn"><i class="fas fa-search"></i></button>
     
-    <input type="text" name="ghusername" id="ghusername" class="ghusername" placeholder="Github username...">
+      <p>&nbsp;</p>
+      <div class="darkmode_toggle"><b class="tag">Switch mode :</b> <button id="dark"><i class="fas fa-adjust"></i></button></div>  
     
-    
-	
-	
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" id="ghsubmitbtn"><i class="fas fa-search"></i></button>
- 
-  <p>&nbsp;</p>
-  <div class="darkmode_toggle"><b class="tag">Switch mode :</b> <button id="dark"><i class="fas fa-adjust"></i></button></div>
-
+    </div>
+      
+  </div>
+  
  
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -53,9 +55,15 @@
   </div>
   
   
-  
-   
-</div>
+ <footer id="footer">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-12 col md-12 col-sm-12">
+         Designed with Love
+       </div>
+     </div>
+   </div>
+ </footer>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script src="https://kit.fontawesome.com/622afd0c30.js"></script>
 

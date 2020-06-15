@@ -101,8 +101,8 @@ a:hover {
 {
   min-width:100px;
   min-height:100px;
-  
-
+  position: relative;
+  top: 10vh;
 }
 header{
   width:100%;
@@ -420,4 +420,22 @@ html[xmlns] .clearfix { display: block; }
 
 .modal-footer {
   border:none!important;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0px;
+  padding: 20px;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  color: rgb(200,200,200);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.search_box {
+  position: relative;
+  top : 15vh;
 }
