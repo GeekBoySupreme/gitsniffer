@@ -394,10 +394,19 @@ html[xmlns] .clearfix { display: block; }
   border:1px solid rgb(120,120,120);
   border-radius: 50px;
   transition: 0.3s ease;
+  
 }
 #profileurl:hover
 {
   color:rgb(0,116,221);
+}
+
+@media (max-width: 450px) {
+#profileurl {
+  display: block;
+  word-wrap: break-word;
+  overflow: hidden;
+  }
 }
 
 .dot {
