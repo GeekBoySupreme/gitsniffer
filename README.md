@@ -7,9 +7,9 @@
 - Download the project folder with git or as a .zip file and extract the contents.
 - Run index.html
 
-# Purpose
+### Purpose
 This Project was intended as a practise exercise for working with Rest APIs and exploring Dark Mode Implementation.
 
-# Acknowledgements
-<a href='https://lottiefiles.com/'>Lottiefiles</a> for the animations/Lotties in the Web App</a>
-<a href='https://fontawesome.com/icons?d=gallery'>Fontawesome/a> for the amazing set of Icons</a>
+### Acknowledgements
+- <a href='https://lottiefiles.com/'>Lottiefiles</a> for the animations/Lotties in the Web App.
+- <a href='https://fontawesome.com/icons?d=gallery'>Fontawesome</a> for the amazing set of Icons.
